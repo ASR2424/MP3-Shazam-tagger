@@ -229,7 +229,7 @@ async def process_files(files, app):
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.iconbitmap("C:\\tag.ico")
+#        self.root.iconbitmap("C:\\tag.ico")
         self.root.title("MP3 Shazam Tagger PRO")
         self.root.geometry("900x600")
 
